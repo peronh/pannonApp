@@ -1,4 +1,12 @@
-
+.row {
+    margin: 50px 0 0;
+}
+.menu-row {
+    margin: 0;
+}
+.container-swency-today {
+    background-color: #3ca1db;
+}
 @media(max-width:767.99px) {
     .bg-light .collapse .container-menu .menu-row ul li a {
         padding: 15px 0!important;
@@ -60,5 +68,11 @@
     }
     .bg-light .search {
         right: 10px;
+    }
+    .container-workbooks {
+        padding: 30px 10px;
+    }
+    .row {
+        margin: 20px 0 0;
     }
 }
