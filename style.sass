@@ -8,6 +8,7 @@ $font-martel: Martel Sans, sans-serif
   align-items: center
 body
   background-image: url("assets/pannon-back.png")
+  background-size: cover
   padding: 0
   font: 16px $font-open
   line-height: 30px
@@ -24,10 +25,9 @@ hr
 header
   background-color: #35363a
   height: 100px
-  @extend %flex-center
+  @extend %flex-center 
   img
-    position: absolute
-    left: 110px
+    margin-left: 110px
 nav
   background-color: #3ca1db
   text-transform: uppercase
@@ -74,7 +74,6 @@ nav
     position: absolute
     border: 1px solid rgba(255, 255, 255, 0.1)
     @extend %flex-center
-
     img
       position: absolute
       left: 20px

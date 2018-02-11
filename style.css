@@ -4,6 +4,7 @@ header, .bg-light .collapse .container-menu .menu-row ul, .bg-light .search, .mi
 
 body {
   background-image: url("assets/pannon-back.png");
+  background-size: cover;
   padding: 0;
   font: 16px Open Sans, sans-serif;
   line-height: 30px; }
@@ -24,8 +25,7 @@ header {
   background-color: #35363a;
   height: 100px; }
   header img {
-    position: absolute;
-    left: 110px; }
+    margin-left: 110px; }
 
 nav {
   background-color: #3ca1db;
