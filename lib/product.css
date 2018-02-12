@@ -7,6 +7,18 @@
 .container-swency-today {
     background-color: #3ca1db;
 }
+
+.modal-backdrop {
+    display: none;
+}
+.btn-unique {
+    background-color: #3ca1db!important;
+}
+.intro {
+    min-height: 800px!important;    /*!!!!!!!!!!!!!*/
+}
+
+
 @media(max-width:767.99px) {
     .bg-light .collapse .container-menu .menu-row ul li a {
         padding: 15px 0!important;
@@ -40,6 +52,9 @@
     }
     .row-section p {
         line-height: 26px;
+    }
+    .col-section {
+        padding: 0 5px;
     }
     .container-customer-references .row-card .card .card-body .card-text {
         line-height: 26px;
@@ -75,4 +90,25 @@
     .row {
         margin: 20px 0 0;
     }
+    .intro {
+        min-height: 500px!important;    /*!!!!!!!!!!!!!*/
+    }
+}
+
+@media(min-width: 576px) {
+    .modal {
+        position: relative;
+        width: 500px;
+        display: block;
+        opacity: 1;
+        overflow: visible;
+        margin-bottom: -250px;
+    }
+    a.waves-effect, a.waves-light {
+        display: none;
+    }
+    .close {
+        display: none;
+    }
+
 }
