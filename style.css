@@ -174,7 +174,7 @@ nav {
   background-image: url("assets/email.png");
   background-size: cover;
   background-position: center;
-  height: 600px; }
+  height: 100%; }
 
 .container-partners {
   margin-top: 50px; }

@@ -82,10 +82,10 @@ i.fa.fa-arrow-up {
         justify-content: center;
     }
     .parallax {
-        height: 300px!important;
+       /* height: 300px!important;*/
     }
     .intro {
-        min-height: 400px!important;    /*!!!!!!!!!!!!!*/
+       min-height: 400px!important;    /*!!!!!!!!!!!!!*/
     }
     .bg-light .search {
         display: none;
