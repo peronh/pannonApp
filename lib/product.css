@@ -36,7 +36,6 @@
     cursor: pointer;
 
 }
-
 .modal-backdrop {
     display: none;
 }
@@ -67,16 +66,6 @@
 i.fa.fa-arrow-up {
     margin: 10px;
     font-size: 130%}
-.desktop {
-    color: #3ca1db;
-    font-size: 13px;
-    border-radius: 4px;
-    display: none;
-    text-transform: lowercase;
-    font-style: italic;
-    margin-left: 10px;
-}
-
 
 @media(max-width:767.99px){
 
