@@ -8,6 +8,35 @@
     background-color: #3ca1db;
 }
 
+.form-inline {
+    /*background-color: red;*/
+    z-index: 2000;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    padding: 20px 0 20px 30px;
+    width: 40vw;
+    height: 100px;
+    opacity: .8;
+    display: none;
+}
+.form-inline .form-control {
+    width: 100%;
+    color: #3ca1db ;
+    background-color: #ffffff;
+    opacity: .6;
+    padding: 15px;
+}
+.form-inline button {
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
 .modal-backdrop {
     display: none;
 }
@@ -49,23 +78,16 @@ i.fa.fa-arrow-up {
 }
 
 
-
-
-
-@media(max-width:767.99px) {
-    .bg-light .collapse .container-menu .menu-row ul li a {
-        padding: 15px 0!important;
-    }
-
-}
-
 @media(max-width:767.99px){
+
     .mistify__slide .mistify__slide-title {
         font-size: 24px;
         line-height: 24px;
         padding: 5px;
     }
-
+    .bg-light .collapse .container-menu .menu-row ul li a {
+        padding: 15px 0!important;
+    }
     header img {
         margin: 0 auto;
         justify-content: center;
@@ -74,13 +96,25 @@ i.fa.fa-arrow-up {
         height: 300px!important;
     }
     .intro {
-        min-height: 350px!important;    /*!!!!!!!!!!!!!*/
+        min-height: 400px!important;    /*!!!!!!!!!!!!!*/
+    }
+    .bg-light .search {
+        display: none;
+    }
+    .form-inline {
+        display: block;
+        width:70vw!important;
+        top: -12px;
+        right: 10px;
     }
 }
 
 @media(max-width:575.99px){
     .container-workbooks {
         padding: 60px 10px;
+    }
+    .form-inline {
+        width: 90vw;
     }
     .mistify__slide .mistify__slide-title {
         font-size: 14px;
