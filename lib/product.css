@@ -69,20 +69,12 @@ i.fa.fa-arrow-up {
 
 @media(max-width:767.99px){
 
-    .mistify__slide .mistify__slide-title {
-        font-size: 24px;
-        line-height: 24px;
-        padding: 5px;
-    }
     .bg-light .collapse .container-menu .menu-row ul li a {
         padding: 15px 0!important;
     }
     header img {
         margin: 0 auto;
         justify-content: center;
-    }
-    .parallax {
-       /* height: 300px!important;*/
     }
     .intro {
        min-height: 400px!important;    /*!!!!!!!!!!!!!*/
@@ -99,6 +91,12 @@ i.fa.fa-arrow-up {
 }
 
 @media(max-width:575.99px){
+    header {
+        height: 60px;
+    }
+    header img {
+        width: 160px;
+    }
     .container-workbooks {
         padding: 60px 10px;
     }
@@ -124,18 +122,6 @@ i.fa.fa-arrow-up {
     }
     .bg-light .collapse .container-menu .menu-row ul {
         padding: 0 10px;
-    }
-    .mistify__arrows--prev, .mistify__arrows--next {
-        height: 25px;
-        width: 25px;
-    }
-    .mistify__arrows--next img {
-        width: 8px;
-        height: 15px;
-    }
-    .mistify__arrows--prev img {
-        width: 8px;
-        height: 15px;
     }
     .container-contact {
         margin: 30px 0;
@@ -171,11 +157,5 @@ i.fa.fa-arrow-up {
     }
 }
 
-@media (min-width:576px) and (max-width:767.99px) {
-    .mistify {
-        height: 100vh;
-    }
-
-}
 
 
