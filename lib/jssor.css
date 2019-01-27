@@ -27,8 +27,6 @@ html, body {
         transform: rotate(360deg);
     }
 }
-
-
 .jssorb064 {position:absolute;}
 .jssorb064 .i {position:absolute;cursor:pointer;}
 .jssorb064 .i .b {fill:#000;fill-opacity:.5;stroke:#fff;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}

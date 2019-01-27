@@ -11,7 +11,7 @@ body {
   line-height: 30px; }
 
 h2 {
-  font: 30px Roboto, sans-serif;
+  font: 30px open sans, sans-serif;
   font-weight: 900;
   text-align: center;
   color: #000000; }
@@ -53,7 +53,7 @@ nav {
         list-style-type: none;
         flex-basis: inherit; }
         .bg-light .collapse .container-menu .menu-row ul li a {
-          font: 13px Roboto, sans-serif;
+          font: 13px open sans, sans-serif;
           color: #ffffff !important;
           font-weight: 600;
           position: relative;
@@ -125,7 +125,7 @@ nav {
     justify-content: center;
     padding-top: 15px; }
     .row-swency-today .col-swency-today h2 {
-      font: 24px Roboto, sans-serif;
+      font: 24px open sans, sans-serif;
       font-weight: 400;
       color: #ffffff; }
     .row-swency-today .col-swency-today .btn-warning {
@@ -162,7 +162,7 @@ nav {
         text-align: center; }
         .container-customer-references .row-card .card .card-body .card-title {
           padding: 10px 0;
-          font: 18px Roboto, sans-serif;
+          font: 18px open sans, sans-serif;
           font-weight: 600;
           color: #222222; }
         .container-customer-references .row-card .card .card-body .card-text {
@@ -198,7 +198,7 @@ nav {
     .container-contact .col-contact h3 {
       text-transform: uppercase;
       padding: 20px 0;
-      font: 18px Roboto, sans-serif;
+      font: 18px open sans, sans-serif;
       font-weight: 600;
       color: #222222; }
     .container-contact .col-contact p, .container-contact .col-contact a {
