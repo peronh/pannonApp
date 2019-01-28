@@ -1,23 +1,233 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
+header, .bg-light .collapse .container-menu .menu-row ul, .bg-light .search, .mistify__slide, .container-workbooks .row-workbooks-title, .row-swency-today, .row-swency-today .col-swency-today, .container-customer-references .row-customer-title {
+  display: flex;
+  align-items: center; }
 
-Backtrace:
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `read'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
-C:/Ruby24-x64/bin/sass:23:in `load'
-C:/Ruby24-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
+body {
+  /*background-image: url("assets/pannon-back.png");*/
+  /*background-size: cover;*/
+  background-color: #fdfff9;
+  padding: 0;
+  font: 16px Open Sans, sans-serif;
+  line-height: 30px; }
+
+h2 {
+  font: 30px open sans, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: #000000; }
+
+hr {
+  border-width: 2px;
+  width: 80px;
+  margin: 0 auto;
+  border-color: #3ca1db; }
+
+header {
+  background-color: #35363a;
+  height: 100px; }
+  header img {
+    margin-left: 110px; }
+
+nav {
+  background-color: #3ca1db;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.mb-3 {
+  margin-bottom: 0 !important; }
+
+.bg-light {
+  background-color: #3ca1db !important; }
+  .bg-light .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.1); }
+    .bg-light .navbar-toggler .fa-bars {
+      color: #ffffff; }
+  .bg-light .collapse {
+    background-color: #3ca1db; }
+    .bg-light .collapse .container-menu .menu-row ul {
+      margin: 0;
+      padding: 0; }
+      .bg-light .collapse .container-menu .menu-row ul li {
+        list-style-type: none;
+        flex-basis: inherit; }
+        .bg-light .collapse .container-menu .menu-row ul li a {
+          font: 13px open sans, sans-serif;
+          color: #ffffff !important;
+          font-weight: 600;
+          position: relative;
+          padding: 22px 10px !important; }
+        .bg-light .collapse .container-menu .menu-row ul li a:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+          text-decoration: none; }
+        .bg-light .collapse .container-menu .menu-row ul li img {
+          float: left;
+          margin: -5px 4px -5px 0; }
+  .bg-light .search {
+    height: 60px;
+    width: 60px;
+    right: 40px;
+    top: 0;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1); }
+    .bg-light .search img {
+      position: absolute;
+      left: 20px;
+      top: 20px; }
+  .bg-light .search:hover {
+    background-color: rgba(255, 255, 255, 0.1); }
+
+.main-section {
+  position: relative; }
+
+.mistify__slide {
+  justify-content: center; }
+  .mistify__slide .mistify__slide-title {
+    background-color: #555555;
+    opacity: 0.7;
+    padding: 8px 5px 5px;
+    border-radius: 5px;
+    font: 32px Open Sans, sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff; }
+
+.container-workbooks {
+  padding: 60px 0; }
+  .container-workbooks .row-workbooks-title {
+    justify-content: center; }
+
+.row-section {
+  margin-top: 50px; }
+  .row-section .col-section {
+    padding: 0 15px; }
+  .row-section h3 {
+    font: 15px Open Sans, sans-serif;
+    color: #3ca1db;
+    font-weight: 600; }
+  .row-section .fa-book {
+    font-style: oblique; }
+  .row-section p {
+    font: 15px Open Sans, sans-serif;
+    color: #555555;
+    text-align: justify;
+    line-height: 30px; }
+
+.row-swency-today {
+  padding: 30px 0;
+  justify-content: center;
+  margin-bottom: 50px; }
+  .row-swency-today .col-swency-today {
+    justify-content: center;
+    padding-top: 15px; }
+    .row-swency-today .col-swency-today h2 {
+      font: 24px open sans, sans-serif;
+      font-weight: 400;
+      color: #ffffff; }
+    .row-swency-today .col-swency-today .btn-warning {
+      background-color: #fca543;
+      color: #ffffff;
+      width: 220px;
+      height: 50px;
+      margin: 0 auto;
+      font: 18px Open Sans, sans-serif;
+      font-weight: 600;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none; }
+    .row-swency-today .col-swency-today .btn-warning:hover {
+      background-color: #eb971f; }
+
+.container-customer-references {
+  margin-bottom: 50px; }
+  .container-customer-references .row-customer-title {
+    justify-content: center; }
+  .container-customer-references .row-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; }
+    .container-customer-references .row-card .card {
+      border: none;
+      box-shadow: none;
+      padding: 6px;
+      background-color: transparent; }
+      .container-customer-references .row-card .card img {
+        margin: 10px auto; }
+      .container-customer-references .row-card .card .card-body {
+        padding: 0;
+        text-align: center; }
+        .container-customer-references .row-card .card .card-body .card-title {
+          padding: 10px 0;
+          font: 18px open sans, sans-serif;
+          font-weight: 600;
+          color: #222222; }
+        .container-customer-references .row-card .card .card-body .card-text {
+          font: 14px Open Sans, sans-serif;
+          font-weight: 400;
+          color: #555555;
+          line-height: 30px; }
+
+.parallax {
+  background-image: url("../assets/email.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%; }
+
+.container-partners {
+  margin-top: 50px; }
+  .container-partners .row-partners {
+    padding: 20px 0; }
+    .container-partners .row-partners .col-partners {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0; }
+
+.container-blue-line {
+  height: 60px;
+  margin: 10px auto;
+  background-color: #3ca1db; }
+
+.container-contact {
+  margin: 60px auto; }
+  .container-contact .col-contact {
+    padding: 0; }
+    .container-contact .col-contact h3 {
+      text-transform: uppercase;
+      padding: 20px 0;
+      font: 18px open sans, sans-serif;
+      font-weight: 600;
+      color: #222222; }
+    .container-contact .col-contact p, .container-contact .col-contact a {
+      margin: 0;
+      font: 14px Open Sans, sans-serif;
+      font-weight: 400;
+      color: #555555;
+      line-height: 20px; }
+    .container-contact .col-contact a {
+      color: #555555;
+      display: block;
+      line-height: 35px; }
+    .container-contact .col-contact .pannon {
+      text-decoration: underline; }
+    .container-contact .col-contact .fa {
+      height: 25px;
+      width: 25px;
+      padding: 4px;
+      margin-right: 5px;
+      color: #555555;
+      border: 1px solid #f4f4f7; }
+
+@media (max-width: 991.99px) {
+  nav {
+    padding: 10px; }
+    nav .navbar-toggler {
+      padding: 10px;
+      margin: 9px; }
+    nav .container-menu {
+      margin-bottom: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
